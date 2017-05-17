@@ -31,9 +31,10 @@ Good to go! If you are not using any pre-maid dev environment you can it direct 
 ```bash
 php artisan serve
 ```
+-------------------
 
 ## First access
-Now you just have to access the application by your browser and use the following credentials to log in!
-> username: gustavo.bissolli@gmail.com
 
-> password: mypass
+Now you just have to access the application on your browser and use the following credentials to log in!
+- username: gustavo.bissolli@gmail.com
+- password: mypass
