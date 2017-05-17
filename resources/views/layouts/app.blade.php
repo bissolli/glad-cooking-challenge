@@ -16,12 +16,6 @@
 <body>
     <div id="app">
 
-        @if (session('flash_success'))
-            <div class="alert alert_success">
-                {{ session('flash_success') }}
-            </div>
-        @endif
-
         @yield('content')
 
         <footer>
