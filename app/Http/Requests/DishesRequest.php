@@ -24,7 +24,7 @@ class DishesRequest extends FormRequest
     public function rules()
     {
         return [
-            'photo'                 => 'required|file|max:1000|mimes:jpg,png,jpeg',
+            'photo'                 => 'required|max:1000|mimes:jpg,png,jpeg',
             'name'                  => 'required',
             'description'           => 'required',
             'terms_and_conditions'  => 'accepted',
