@@ -21,7 +21,7 @@
                 <small class="d_block f_size_21 m_top_5">Share your Signature dish and make it to the</small>
                 2013 GLAD COOKING CHALLENGE
             </h2>
-            <form action="/dishes/store" method="post" class="form_create" enctype="multipart/form_data">
+            <form action="/dishes/store" method="post" class="form_create" enctype="multipart/form-data">
 
                 {{ csrf_field() }}
 
