@@ -1,0 +1,68 @@
+@media (max-width: 880px) {
+    .login_container {
+        display: block;
+        width: 100%;
+
+        .box_left,
+        .box_right {
+            display: block;
+            width: 100%;
+        }
+
+        .box_left {
+            > .d_inline_block {
+                display: block;
+                text-align: center;
+            }
+        }
+
+        .login_form {
+            display: block;
+        }
+    }
+
+    #app > footer a {
+        font-size: 16px;
+        line-height: 12px;
+    }
+}
+
+@media (max-width: 999px) {
+    .list_container {
+
+        .box_left {
+            display: none;
+        }
+
+        .box_right {
+            min-width: auto;
+            width: 100%;
+
+            .logo {
+                display: block;
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .box-filter {
+        width: 100%;
+    }
+
+    .header_can_cook {
+        > span {
+            display: block;
+        }
+
+        .submit_dish {
+            position: inherit;
+            margin-top: 20px;
+            right: auto;
+        }
+    }
+
+    .dishes_list > li {
+        width: 100%;
+    }
+}

@@ -1,0 +1,49 @@
+.p_ {
+    @each $p_elm in top,left,right,bottom {
+        @for $i from 0 through 50 {
+            &#{$p_elm}_#{$i}{
+                padding-#{$p_elm}: #{$i}px;
+            }
+        }
+    }
+    @for $i from 0 through 50 {
+        &#{$i}{
+            padding: #{$i}px;
+        }
+    }
+}
+
+.m_0_auto {
+    margin: 0 auto;
+}
+
+.m_ {
+    @each $p_elm in top,left,right,bottom {
+        @for $i from 0 through 50 {
+            &#{$p_elm}_#{$i} {
+                margin-#{$p_elm}: #{$i}px;
+            }
+        }
+    }
+    @for $i from 0 through 50 {
+        &#{$i}{
+            margin: #{$i}px;
+        }
+    }
+}
+
+.w_ {
+    @for $i from 0 through 100 {
+        &#{$i} {
+            width: #{$i}#{'%'};
+        }
+    }
+}
+
+.f_size_ {
+    @for $i from 10 through 30 {
+        &#{$i} {
+            font-size: #{$i}px;
+        }
+    }
+}

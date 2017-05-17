@@ -1,0 +1,13 @@
+// colors
+$yellow: #ffe853;
+$yellow_light: #fff196;
+$red: #df2529;
+$red_dark: #8c1417;
+$white: #fff;
+$black: #000;
+
+// Mixins
+@mixin transition($transition-property, $transition-time, $method) {
+    transition: $transition-property $transition-time $method;
+    -webkit-transition: $transition-property $transition-time $method;
+}
